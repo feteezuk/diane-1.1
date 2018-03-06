@@ -13,8 +13,26 @@
 	
 	<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="style.css">
+
+
 </head>
 <body>
+
+	<script type="text/javascript">
+
+
+
+  
+$.mobile.loading( 'show', {
+	text: 'foo',
+	textonly: false,
+	textVisible: true,
+	showLoadMsg: true,
+	html:""
+});
+
+
+</script>
 
 <div data-role="page" id="home">
 
@@ -73,10 +91,10 @@
 		
 <div data-role="navbar">
 		<ul>
-		<li><a href="index.html" class="ui-btn-active" data-icon="home">HOME</a></li>
-		<li><a href="#about" data-icon="info">ABOUT</a></li>
-		<li><a href="#contact" data-icon="phone">CONTACT</a></li>
-		<li><a href="b.html" data-icon="home">Two</a></li>
+		<li><a href="index.html" class="ui-btn-active" data-icon="home" data-transition="flip">HOME</a></li>
+		<li><a href="#about" data-icon="info" data-transition="flip">ABOUT</a></li>
+		<li><a href="#contact" data-icon="phone" data-transition="flip">CONTACT</a></li>
+		<li><a href="b.html" data-icon="home" data-transition="flip">Two</a></li>
 		</ul>
 	</div><!-- /navbar -->
 		
@@ -140,10 +158,10 @@
 		
 <div data-role="navbar">
 		<ul>
-			<li><a href="#home"  data-icon="home">HOME</a></li>
-			<li><a href="#about" class="ui-btn-active" data-icon="info">ABOUT</a></li>
-			<li><a href="#contact" data-icon="phone">CONTACT</a></li>
-			<li><a href="b.html" data-icon="home">Two</a></li>
+			<li><a href="#home"  data-icon="home" data-transition="flip">HOME</a></li>
+			<li><a href="#about" class="ui-btn-active" data-icon="info" data-transition="flip">ABOUT</a></li>
+			<li><a href="#contact" data-icon="phone" data-transition="flip">CONTACT</a></li>
+			<li><a href="b.html" data-icon="home" data-transition="flip">Two</a></li>
 		</ul>
 	</div><!-- /navbar -->
 		
@@ -187,10 +205,10 @@
 		
 <div data-role="navbar">
 		<ul>
-			<li><a href="index.html" data-icon="home">HOME</a></li>
-			<li><a href="#about" data-icon="info">ABOUT</a></li>
-			<li><a href="#contact" data-icon="phone" class="ui-btn-active">CONTACT</a></li>
-			<li><a href="b.html" data-icon="home">Two</a></li>
+			<li><a href="index.html" data-icon="home" data-transition="flip">HOME</a></li>
+			<li><a href="#about" data-icon="info" data-transition="flip">ABOUT</a></li>
+			<li><a href="#contact" data-icon="phone" class="ui-btn-active" data-transition="flip">CONTACT</a></li>
+			<li><a href="b.html" data-icon="home" data-transition="flip">Two</a></li>
 		</ul>
 	</div><!-- /navbar -->
 		
@@ -199,6 +217,8 @@
 </div><!-- /page -->
 
 <!-- Contact page end -->
+
+
 
 </body>
 </html>
