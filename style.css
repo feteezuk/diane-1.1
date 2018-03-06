@@ -1,0 +1,69 @@
+h1{
+	color: #D08927;
+	
+}
+.ui-content{
+	background-image:url("sf.jpg");
+	background-size: 100% 100%;
+	font-size: calc(16px + 1vw);
+	height: 75vh;
+    overflow: auto;
+    overflow-x: hidden;
+}
+.ui-content p {
+	background-color: white;
+	width:40%;
+	margin: 20px auto 20px;
+	padding: 20px;
+	border-radius: 15px;
+}
+.ui-content img{
+	
+	border:15px ridge #D08927;
+
+}
+.container{
+	height: 400px;
+	width:100%;
+	text-align:center;
+}
+.container h2{
+	background-color:black;
+	opacity:0.8;
+	letter-spacing:2px;
+	margin:40px auto 20px;
+	padding: 10px;
+	font-size: calc(36px + 1vw);
+	color: #D08927 ;
+	width: 50%;
+	text-align:center;
+}
+.ui-navbar li a{
+height: 100px;
+}
+
+.ui-footer-fixed { 
+    bottom: 0px;
+    padding-bottom: 0px;
+    height: 65px;
+}
+.about{
+	opacity: .9;
+}
+.ui-content p{
+	width:90%;
+}
+
+.imwhat{
+	margin: 15px auto;
+}
+.imwhat a.ui-btn{
+	padding: 30px;
+	background-color: #D08927;
+	border-radius: 15px;
+	color:white;
+	opacity:.8;
+}
+
+
+
